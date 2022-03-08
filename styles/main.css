@@ -5118,6 +5118,24 @@ Created using IcoMoon - icomoon.io
   background: #FFFFFF;
 }
 
+#social-networks {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#social-networks > .container{
+  position: relative;
+  z-index: 2;
+}
+
+#social-networks > .container > .button-container {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .section .row + .category {
   margin-top: 15px;
 }
@@ -5159,8 +5177,8 @@ Created using IcoMoon - icomoon.io
   width: 100%;
 }
 
-.page-header .container {
-  height: 100%;
+.page-header > .container {
+  height: 50%;
   z-index: 1;
   text-align: center;
   position: relative;
@@ -5168,7 +5186,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header .container > .content-center {
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
